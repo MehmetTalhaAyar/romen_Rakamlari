@@ -15,7 +15,7 @@ public class Main {
 
         while(true){
 
-            System.out.print("Bir sayi giriniz (1-3999):");
+            System.out.print("Bir romen rakami giriniz (1-3999):");
             word = scanner.nextLine();
 
             if(word.equals("-")){
@@ -24,7 +24,7 @@ public class Main {
             System.out.print("Yapilmasi istenilen islemi giriniz :");
             islem = scanner.nextLine();
 
-            System.out.print("Bir sayi giriniz (1-3999):");
+            System.out.print("Bir romen rakami giriniz (1-3999):");
             word2 = scanner.nextLine();
 
             System.out.println(dortIslem.dortIslemSecilecek(word,word2,islem));
